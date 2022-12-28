@@ -14,13 +14,13 @@ public class Reverse {
 	  System.out.print(s.charAt(i));
 	  if(i!=(s.length()-1))
 	  {
-		  char b =ch[i] ;
-	        char ch1;  
-	     /*   ch1 = b[i];  
+		  char[] b =ch[i] ;
+	        char ch;  
+	        ch = b[i];  
 	        b[i] = b[j];  
-	        b[j] = ch1;  */
+	        b[j] = ch;  
 		  
   }
-  }}}
+	}
 
-
+}
